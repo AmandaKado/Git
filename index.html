@@ -10,21 +10,21 @@
 <body>
     <main class="container">
         <h1>Git e Github</h1>
-        <dl class="conteudo">
-            <dt>Git Config</dt>
-                <dd>
+        <details class="conteudo">
+            <summary>GIT CONFIG</summary>
+                <article>
                     <p>
-                        O comando git config é usado para configurar as 
+                        O comando git config é usado para configurar as
                         opções do Git.
-                        Ele pode ser usado para definir opções como nome de 
-                        usuário, endereço de e mail, editor preferido, entre 
+                        Ele pode ser usado para definir opções como nome de
+                        usuário, endereço de e mail, editor preferido, entre
                         outras.
                     
                         Existem três níveis de configuração:
                     
-                        1.Configuração global: Aplica-se a todos os 
-                        repositórios do usuário em um determinado sistema. 
-                        Para definir a configuração global, use o comando: 
+                        1.Configuração global: Aplica-se a todos os
+                        repositórios do usuário em um determinado sistema.
+                        Para definir a configuração global, use o comando:
                     </p>
                     <code>
                         <pre>
@@ -32,7 +32,7 @@
                         </pre>
                     </code>
                     <p>
-                        Por exemplo, para definir o nome de usuário 
+                        Por exemplo, para definir o nome de usuário
                         globalmente, use:
                     </p>
                     <code>
@@ -41,9 +41,9 @@
                         </pre>
                     </code>
                     <p>
-                        2. Configuração local do repositório: Aplica-se 
-                        apenas ao repositório atual em que o comando é 
-                        executado. Para definir a configuração local, use o 
+                        2. Configuração local do repositório: Aplica-se
+                        apenas ao repositório atual em que o comando é
+                        executado. Para definir a configuração local, use o
                         comando:
                     </p>
                     <code>
@@ -52,7 +52,7 @@
                         </pre>
                     </code>
                     <p>
-                        Por exemplo, para definir o nome de usuário 
+                        Por exemplo, para definir o nome de usuário
                         localmente, use:
                     </p>
                     <code>
@@ -61,48 +61,49 @@
                         </pre>
                     </code>
                     <p>
-                        3. Configuração específica do arquivo: Aplica-se 
-                        apenas 
-                        ao arquivo de configuração do Git específico que está 
-                        sendo usado. Para 
-                        definir a configuração específica do arquivo, use o 
+                        3. Configuração específica do arquivo: Aplica-se
+                        apenas
+                        ao arquivo de configuração do Git específico que está
+                        sendo usado. Para
+                        definir a configuração específica do arquivo, use o
                         comando:
                     </p>
                     <code>
                         <pre>
-                            git config --file &#60;arquivo-de-configuração> 
+                            git config --file &#60;arquivo-de-configuração>
                             &#60;opção> &#60;valor>
                         </pre>
-                    </code>   
+                    </code>
                     <p>
-                        Por exemplo, para definir o nome de usuário em um 
+                        Por exemplo, para definir o nome de usuário em um
                         arquivo de configuração específico, use:
                     </p>
                     <code>
                         <pre>
-                            git config --file /caminho/para/arquivo-de- 
+                            git config --file /caminho/para/arquivo-de-
                             configuração user.name "Seu Nome"
                         </pre>
                     </code>
                     <p>
-                        Alguns exemplos de opções do Git que podem ser 
+                        Alguns exemplos de opções do Git que podem ser
                         configuradas usando o git config são:
                         <ul>
                             <li>user.name: Define o nome de usuário.</li>
                             <li>user.email: Define o endereço de e-mail.</li>
-                            <li>core.editor: Define o editor de texto   
+                            <li>core.editor: Define o editor de texto
                             preferido para o Git.</li>
-                            <li>color.ui: Habilita ou desabilita a saída 
+                            <li>color.ui: Habilita ou desabilita a saída
                             colorida do Git.</li>
-                            <li>merge.tool: Define a ferramenta de mesclagem 
+                            <li>merge.tool: Define a ferramenta de mesclagem
                             de conflitos preferida.</li>
-                            <li>push.default: Define a estratégia padrão para 
-                            empurrar alterações para um repositório remoto. 
+                            <li>push.default: Define a estratégia padrão para
+                            empurrar alterações para um repositório remoto.
                             </li>
                         </ul>
                     </p>
-                </dd>
-        </dl>
+                </article>
+            <summary></summary>
+        </details>
     </main>
 </body>
 </html>
