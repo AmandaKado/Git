@@ -23,14 +23,20 @@ main h1 {
     color: rgb(184, 10, 184);
 }
 
-article div {
+article div.box-code {
     border: 1px solid #fff;
     margin: 20px;
     width: 500px;
-    display: flex;
     text-align: left;
+    border-radius: 5px;
 }
 
-code {
-    padding-top: 20px;    
+div.code {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+div.code > span {
+    color: rgba(162, 76, 242, 0.987);
 }
